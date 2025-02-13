@@ -1,0 +1,11 @@
+project = midp 
+AND issuetype not in (operation, sub-task, inquiry, "new feature", improvement, initiative, epic, Phase, "Ticket Template(WBSGantt)") 
+AND assignee is EMPTY 
+AND "Epic Link" is EMPTY 
+AND resolution = EMPTY 
+AND key != midp-490 
+AND issue not in (linkedIssues(midp-567), linkedIssues(midp-568), linkedIssues(midp-569), linkedIssues(midp-570), linkedIssues(midp-571), linkedIssues(midp-572), linkedIssues(midp-573), linkedIssues(midp-574), linkedIssues(midp-575)) 
+AND key != midp-1718 
+AND issue not in (linkedIssues(midp-1722), linkedIssues(midp-1723), linkedIssues(midp-1724), linkedIssues(midp-1725), linkedIssues(midp-1726), linkedIssues(midp-1727), linkedIssues(midp-1728), linkedIssues(midp-1729), linkedIssues(midp-1730)) 
+AND issue not in (linkedIssues(MIDP-2329), linkedIssues(MIDP-2328), linkedIssues(MIDP-2327), linkedIssues(MIDP-2326), linkedIssues(MIDP-2325), linkedIssues(MIDP-2324), linkedIssues(MIDP-2323)) 
+ORDER BY reporter ASC
