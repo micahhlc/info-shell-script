@@ -26,6 +26,6 @@ scutil --dns | grep 'nameserver\['
 
 echo "\nPinging www.rakuten.co.jp to confirm internet connectivity..."
 # Send 4 pings to a reliable external server to test the connection.
-ping -c 4 www.rakuten.co.jp
+ping -c 10 www.rakuten.co.jp
 
 echo "\n--- Network reset complete. ---"
