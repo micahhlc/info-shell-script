@@ -32,7 +32,7 @@ Project = MYDATAREQ
 OR
 project in (epsdpmo, epram) 
   AND (assignee in (lei.li, paramjitsingh.sid, unro.cho, jiajia.hu, qicong.yin, nikita.anisimov, nikita.zhukovskii, damir.akhverdiev, amal.khalluf, ts-ir.clementearacil, ts-amir.ibraimov, ts-babatunde.lawal, micah.cheng, paramis.weraniyagoda, kakit.mok, xiaoshuang.wu, ts-hitomi.a.mashiki, erina.nishimura, timothy.hartanto, ts-hendra.djohan) 
-    OR reporter in (lei.li, paramjitsingh.sid, unro.cho, jiajia.hu, qicong.yin, nikita.anisimov, nikita.zhukovskii, damir.akhverdiev, amal.khalluf, ts-ir.clementearacil, ts-amir.ibraimov, ts-babatunde.lawal, micah.cheng, paramis.weraniyagoda, kakit.mok, xiaoshuang.wu, ts-hitomi.a.mashiki, erina.nishimura, timothy.hartanto, ts-hendra.djohan)
+    OR watcher in (lei.li, paramjitsingh.sid, unro.cho, jiajia.hu, qicong.yin, nikita.anisimov, nikita.zhukovskii, damir.akhverdiev, amal.khalluf, ts-ir.clementearacil, ts-amir.ibraimov, ts-babatunde.lawal, micah.cheng, paramis.weraniyagoda, kakit.mok, xiaoshuang.wu, ts-hitomi.a.mashiki, erina.nishimura, timothy.hartanto, ts-hendra.djohan)
   ) 
   AND status not in (closed, cancelled, done) 
 )
