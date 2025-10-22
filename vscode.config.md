@@ -1,0 +1,4 @@
+"[markdown]": {
+  "editor.defaultFormatter": null,
+  "editor.formatOnSave": false
+}
